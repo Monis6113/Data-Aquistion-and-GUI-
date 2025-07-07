@@ -31,9 +31,9 @@ CONNECTIONS
 1)Connect the VCC pin of HC-12 module to 5V or 3.3 V of the Arduino board.
 2)Connect the GND pin of HC-12 module to any of the GND port of the Arduino board to ensure common grounding.
 3)Connect the RX pin to the digital pin 11 and the TX pin to the digital pin 10. 
-**![image](https://github.com/user-attachments/assets/a3bf95ca-ec49-4961-8fe2-0015e52a2061)
-**
-4) Power the Arduino Mega using LV(Low voltage) power supply from the power outlet whereas power the Arduino Uno using Arduino USB cable Type A to Type B. 5.) Open Arduino IDE software and choose appropriate Arduino Board and COM port to ensure correct serial values and uploading.
+![image](https://github.com/user-attachments/assets/a3bf95ca-ec49-4961-8fe2-0015e52a2061)
+4)Power the Arduino Mega using LV(Low voltage) power supply from the power outlet whereas power the Arduino Uno using Arduino USB cable Type A to Type B. 
+5) Open Arduino IDE software and choose appropriate Arduino Board and COM port to ensure correct serial values and uploading.
 
 MY ROLE 
 I undertook this aspect of the Data Acquisition system and UI Dashboard Creation where I published the Sender Code consisting of BMS,MFR,Motor Controller and Hall Effect Sensor data which is encapuslated and then sent in the form of a byte array.Also, I published the reciever code which decapsulates the data recieved on the HC-12 and then showcases it on the Serial Monitor.For this an important library needs to be installed :-https://downloads.arduino.cc/libraries/github.com/coryjfowler/mcp_can-1.5.0.zip  
